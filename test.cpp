@@ -1,7 +1,6 @@
 #include <cassert>
+#include "math.h"
 using namespace std;
-
-int add(int a, int b);
 
 int main() {
     assert(add(2, 3) == 5);
